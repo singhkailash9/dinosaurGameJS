@@ -39,6 +39,32 @@ body{
     color: white;
     background-color: black;
 }
+.btn{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(51, 163, 57, 0.85);
+    margin: 14px 14px;
+    padding: 14px 14px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.Start{
+    position: absolute;
+    left: 45vw;
+    top: 45vh;
+}
+.Reload{
+    position: absolute;
+    left: 44vw;
+    top: 58vh; 
+}
+.hide{
+    visibility: hidden;
+}
+
 .dino{
     background-image: url(pics/dinosaur2.png);
     background-repeat: no-repeat;

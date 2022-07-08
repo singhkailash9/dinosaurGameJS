@@ -13,8 +13,10 @@
     <!-- <div class="gameover">Welcome to Dragon Game - Created by Kailash</div> -->
     <div class="gameover">Welcome to Dragon Game using JavaScript.</div>
     <div class="desc">Press Arrow keys to move or jump. <br> You can use spacebar to jump as well.</div>
-    <div class="dino"></div>
+    <div> <input type="button" class="Start btn" id="Start" value="Start Playing" onclick="gamestart()"> </div>
+    <div> <input type="button" class="Reload btn hide" id="rld" value="Reload" onclick="document.location.reload()"> </div>
+    <div class="dino" id="dino"></div>
     <div id="scoreCont">Your Score: </div>
-    <div class="obstacle obstacleAni"></div>
+    <div class="obstacle" id="obstacle"></div>
 </body>
 </html>
